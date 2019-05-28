@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsWebpacker</title>
+    <%= csrf_meta_tags %>
+
+    <%= javascript_pack_tag 'application' %>
+    <%= stylesheet_pack_tag 'application' %>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <body>
+am_s
+    <img src="<%= asset_pack_path 'media/packs/images/favicon.svg' %>" width="100px" height="100px" />
+    <img src="<%= asset_pack_path 'media/images/dashboard-advisor.svg' %>" width="100px" height="100px" />
+
+    <%= yield %>
+    <div id="webpacker">
+
+    </div>
+  </body>
+</html>
