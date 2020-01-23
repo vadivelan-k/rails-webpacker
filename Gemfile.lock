@@ -126,7 +126,7 @@ GEM
     regexp_parser (1.5.1)
     ruby_dep (1.5.0)
     rubyzip (1.2.3)
-    secure_headers (3.5.0)
+    secure_headers (3.9.0)
       useragent
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
@@ -174,7 +174,7 @@ DEPENDENCIES
   pg (>= 0.18, < 2.0)
   puma (~> 3.7)
   rails (~> 5.2.0)
-  secure_headers (= 3.5.0)
+  secure_headers (= 3.9.0)
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
